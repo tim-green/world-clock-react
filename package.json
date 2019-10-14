@@ -1,0 +1,46 @@
+{
+  "name": "world-clocks",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/types": "^7.6.1",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.26",
+    "node-sass": "^4.12.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "World clocks",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "css-loader": "^3.2.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
