@@ -58,3 +58,28 @@ function City(props) {
     getBgGradient(currentHour);
   });
 
+  return (
+    <div
+      className={`panel ${open ? "open" : ""} ${bgGradient}`}
+      onClick={() => setToggleOpen(!open)}
+    >
+      <div>
+        <h2>{name}</h2>
+        <p>{localTime}</p>
+      </div>
+      <div className="weather-icon">
+        <i className={weatherData.icon}></i>
+        {weatherData.temp ? (
+          <span>
+            {" "}
+            {weatherData.desc} {weatherData.temp}°C{" "}
+          </span>
+        ) : (
+          ""
+        )}
+      </div>
+    </div>
+  );  
+}
+
+export default City;
