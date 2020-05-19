@@ -19,11 +19,11 @@ function City(props) {
   const [bgGradient, setGradient] = useState('');
  
   const getWeatherInfo = async (id) => {
-      const url = `https://api.openweathermap.org/data/2.5/weather?id=${id}&units=metric&appid=f594268c9cc670ce8c73dc8b4ce4f00e`;
+      const url = `https://api.openweathermap.org/data/2.5/weather?id=${id}&units=metric&appid=b75b67c8caf0573ee8e4b5aebbe0edeb`;
       const res = await fetch(url).then(res => res.json());
       const weatherInfo = { "temp": res.main.temp,
                             "desc": res.weather[0].main,
-                            "icon": `${res.weather[0].icon}.png`,
+                            "icon": `http://openweathermap.org/img/wn/${res.weather[0].icon}.png`,
                           };
       return setWeatherData(weatherInfo);
   }
