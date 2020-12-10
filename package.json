@@ -12,6 +12,7 @@
     "react-scripts": "3.1.1"
     "@babel/types": "^7.12.7",
     "moment": "^2.29.1",
+    "moment-timezone": "^0.5.32",
   },
   "scripts": {
     "start": "react-scripts start",
