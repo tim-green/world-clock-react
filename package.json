@@ -36,11 +36,9 @@
   "main": "index.js",
   "devDependencies": {
     "autoprefixer-loader": "^3.2.0",
-    "css-loader": "^3.2.0",
-    "sass-loader": "^8.0.0",
-    "style-loader": "^1.0.0"
     "css-loader": "^5.0.1",
     "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0"
   },
   "keywords": [],
   "author": "",
